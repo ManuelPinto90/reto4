@@ -67,15 +67,15 @@ export class Punto
         public calcularMasCercano(puntos:Punto[]):Punto
         { 
             let distancia:number = Number.MAX_VALUE
-            let  distanciamascorta: Punto
+            let  distanciaMasCorta: Punto
             for(let i=0; i<puntos.length;i++)
             {
                 if(this.calcularDistancia(puntos[i])<distancia)
                 {
                     distancia = this.calcularDistancia(puntos[i])
-                    distanciamascorta = puntos[i]
+                    distanciaMasCorta = puntos[i]
                 }
-            } return distanciamascorta
+            } return distanciaMasCorta
         }
 
 }
