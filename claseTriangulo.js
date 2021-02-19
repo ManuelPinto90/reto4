@@ -20,6 +20,6 @@ var Triangulo = /** @class */ (function () {
 exports.Triangulo = Triangulo;
 var punto1 = new clasePunto_1.Punto(0, 0);
 var punto2 = new clasePunto_1.Punto(0, 3);
-var punto3 = new clasePunto_1.Punto(4, 0);
+var punto3 = new clasePunto_1.Punto(0, 4);
 var triangulo1 = new Triangulo(punto1, punto2, punto3);
 console.log(triangulo1.calcularLongitudLados());

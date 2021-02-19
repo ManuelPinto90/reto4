@@ -24,7 +24,6 @@ export class Triangulo
 
 let punto1 : Punto = new Punto (0,0)
 let punto2 : Punto = new Punto (0,3)
-let punto3 : Punto = new Punto (4,0)
+let punto3 : Punto = new Punto (0,4)
 let triangulo1 : Triangulo = new Triangulo(punto1,punto2,punto3)
-console.log(triangulo1.calcularLongitudLados());
-
+console.log(triangulo1.calcularLongitudLados())

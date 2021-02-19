@@ -52,14 +52,14 @@ var Punto = /** @class */ (function () {
     };
     Punto.prototype.calcularMasCercano = function (puntos) {
         var distancia = Number.MAX_VALUE;
-        var distanciamascorta;
+        var distanciaMasCorta;
         for (var i = 0; i < puntos.length; i++) {
             if (this.calcularDistancia(puntos[i]) < distancia) {
                 distancia = this.calcularDistancia(puntos[i]);
-                distanciamascorta = puntos[i];
+                distanciaMasCorta = puntos[i];
             }
         }
-        return distanciamascorta;
+        return distanciaMasCorta;
     };
     return Punto;
 }());
